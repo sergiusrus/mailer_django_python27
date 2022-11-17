@@ -1,0 +1,82 @@
+[
+  {
+    "model": "mailer.subscriber",
+    "pk": 1,
+    "fields": {
+      "name": "Имя_1",
+      "surname": "Фамилия_1",
+      "birthday": "1980-06-11",
+      "email": "user_1@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 2,
+    "fields": {
+      "name": "Имя_2",
+      "surname": "Фамилия_2",
+      "birthday": "1980-09-11",
+      "email": "user_2@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 3,
+    "fields": {
+      "name": "Имя_3",
+      "surname": "Фамилия_3",
+      "birthday": "1960-09-11",
+      "email": "user_3@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 4,
+    "fields": {
+      "name": "Имя_4",
+      "surname": "Фамилия_4",
+      "birthday": "1980-11-11",
+      "email": "user_4@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 5,
+    "fields": {
+      "name": "Имя_5",
+      "surname": "Фамилия_5",
+      "birthday": "1985-01-21",
+      "email": "user_5@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 6,
+    "fields": {
+      "name": "Имя_6",
+      "surname": "Фамилия_6",
+      "birthday": "1988-11-11",
+      "email": "user_6@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 7,
+    "fields": {
+      "name": "Имя_7",
+      "surname": "Фамилия_7",
+      "birthday": "1930-10-22",
+      "email": "user_7@gmail.com"
+    }
+  },
+  {
+    "model": "mailer.subscriber",
+    "pk": 8,
+    "fields": {
+      "name": "Имя_8",
+      "surname": "Фамилия_8",
+      "birthday": "1980-09-18",
+      "email": "user_8@gmail.com"
+    }
+  }
+]
