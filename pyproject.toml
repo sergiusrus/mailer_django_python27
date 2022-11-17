@@ -6,7 +6,7 @@ authors = ["Sergey Ovsyannikov <sergovs22@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^2.7"
-django = "1.11"
+Django = "1.11"
 
 [tool.poetry.dev-dependencies]
 
