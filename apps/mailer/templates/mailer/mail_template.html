@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mailing</title>
+</head>
+<body>
+    {% if user_name or user_surname or user_birthday %}
+        <h1>Your data:</h1>
+        <ul>
+            <li><strong>Name:</strong> {{ user_name }}</li>
+            <li><strong>Surname:</strong> {{ user_surname }}</li>
+            <li><strong>Birthday:</strong> {{ user_birthday }}</li>
+        </ul>
+    {% endif %}
+    {% if massages_sent %}
+        <h2>Messages sent!</h2>
+    {% endif %}
+    {% if subscribers_list %}
+        <h1>Subscribers:</h1>
+        <ul>
+        {% for subscriber in subscribers_list %}
+            <li><strong>ID:</strong> {{ subscriber.id }}</li>
+            <li><strong>Name:</strong> {{ subscriber.name }}</li>
+            <li><strong>Surname:</strong> {{ subscriber.surname }}</li>
+            <li><strong>Birthday:</strong> {{ subscriber.birthday }}</li>
+            <li><strong>Email:</strong> {{ subscriber.email }}</li>
+            <span>========================</span>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
